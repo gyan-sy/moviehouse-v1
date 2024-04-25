@@ -1,0 +1,41 @@
+@import "../../mixins.scss";
+.wishlistContainer {
+    min-height: 700px;
+    padding-top: 80px;
+    color: white;
+    .pageTitle {
+        font-size: 30px;
+        font-weight: bold;
+        line-height: 34px;
+        color: white;
+        margin-bottom: 25px;
+    }
+    .movieSection {
+        p {
+            color: #E2DFD2;
+            padding: 50px;
+            font-size: 20px;
+        }
+        .movieList {
+            padding-top: 20px;
+            display: flex;
+            flex-flow: row wrap;
+            gap: 10px;
+            margin-bottom: 40px;
+        }
+    }
+    .tvSection {
+        p {
+            color: #E2DFD2;
+            padding: 50px;
+            font-size: 20px;
+        }
+        .tvList {
+            padding-top: 20px;
+            display: flex;
+            flex-flow: row wrap;
+            gap: 10px;
+            margin-bottom: 40px;         
+        }
+    }
+}

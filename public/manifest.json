@@ -1,0 +1,24 @@
+{
+  "name": "MovieHouse",
+  "short_name": "MovieHouse",
+  "description": "App for Movie/TV Show enthusiasts for getting information.",
+  "lang": "en-US",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "scope": "/",
+  "display_override": [
+    "window-controls-overlay"
+  ],
+  "icons": [
+    {
+      "src": "/assets/moviehouse-logo-cb164bfd.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/?fullscreen=true",
+  "orientation": "any",
+  "display": "fullscreen",
+  "theme_color": "#1c4b91",
+  "background_color": "#1c4b91"
+}
